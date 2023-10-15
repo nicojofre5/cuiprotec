@@ -1,0 +1,11 @@
+/* Celulares y tablet resolucion */
+
+@media screen and (max-width:700px) {
+    .cont-nav-bar{
+        display: none;
+    }
+    .burguer-icon-cont {
+        display: block;
+        padding: 50px 30px 50px 10px;
+    }
+}

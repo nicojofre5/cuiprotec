@@ -78,7 +78,14 @@ h1{
 }
 
 .burguer-icon-cont i{
-    font-size: 3em;
+    font-size: 3.4em;
+    color: white;
+    background-color: var(--color_principal);
+    padding: 8px;
+    border-radius:100%;
+    
+}
+.burguer-icon-cont{
     display: none;
 }
 nav{
