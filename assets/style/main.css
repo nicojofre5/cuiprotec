@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Raleway:wght@300;400;500&display=swap');
 
 :root{
-    --color_principal:rgb(9, 5, 73);
+    --color_principal:rgb(25,43,79);
     --color_secundario:rgb(16, 109, 171);
     --color-terciario:rgb(47, 4, 81);
-    --color-princ_opacidad:rgba(9, 5, 73, 0.635);
+    --color-princ_opacidad:rgba(25, 43, 79, 0.635);
     --font-principal:'Quicksand', sans-serif;
     --font-secundaria:'Raleway', sans-serif;
 }
@@ -78,11 +78,12 @@ h1{
 }
 
 .burguer-icon-cont i{
-    font-size: 3.4em;
+    font-size: 3em;
     color: white;
     background-color: var(--color_principal);
-    padding: 8px;
+    padding: 12px 15px;
     border-radius:100%;
+    cursor: pointer;
     
 }
 .burguer-icon-cont{
@@ -95,18 +96,29 @@ nav{
 
 .nav-bar{
     display: flex;
-    gap: 27px;
     align-items: center;
     background-color: var(--color_principal);
-    padding: 3px 15px;
+    padding: 3px 8px;
     margin: 36px;
     border-radius: 20px;
+    border: 2px solid var(--color-princ_opacidad);
+    
 }
 .nav-link a{
-    padding: 9px 15px;
+    padding: 6px 30px;
     font-size: 1.5em;
     color: white;
     display: inline-block;
     font-family: var(--font-principal);
     font-weight: 400;
+    border-radius: 40px;
 }
+.nav-link{
+    border-radius: 40px;
+}
+.nav-link:hover, .nav-link a:hover {
+    background-color: var(--color_secundario);
+    transition: 1s;
+    border-radius: 40px;
+}
+
