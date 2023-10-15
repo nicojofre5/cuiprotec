@@ -1,4 +1,12 @@
-/* Generalizacion de estilos */
+/* Colores de la pagina y fuentes */
+
+:root{
+    --color_principal:rgb(8, 3, 79);
+    --color_secundario:rgb(31, 122, 182);
+    --color-terciario:rgb(47, 4, 81);
+}
+
+/* Normalización de estilos */
 
 *{
     padding: 0;
@@ -6,4 +14,35 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+/* Comienzo de seccion de header */
+
+
+
 /* Comienzo de nav */
+
+.cont-logo-inicio img{
+    width: 150px;
+}
+
+.burguer-icon-cont i{
+    font-size: 3em;
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: ;
+}
