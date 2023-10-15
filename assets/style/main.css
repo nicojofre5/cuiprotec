@@ -1,10 +1,15 @@
 /* Colores de la pagina y fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Raleway:wght@300;400;500&display=swap');
 
 :root{
-    --color_principal:rgb(8, 3, 79);
+    --color_principal:rgb(9, 5, 73);
     --color_secundario:rgb(31, 122, 182);
     --color-terciario:rgb(47, 4, 81);
+    --font-principal:'Quicksand', sans-serif;
+    --font-secundaria:'Raleway', sans-serif;
 }
+
+
 
 /* Normalización de estilos */
 
@@ -20,6 +25,10 @@ html{
 
 ul, ol{
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
 /* Comienzo de seccion de header */
 
@@ -42,7 +51,18 @@ nav{
 
 .nav-bar{
     display: flex;
-    gap: 10px;
+    gap: 27px;
     align-items: center;
-    background-color: ;
+    background-color: var(--color_principal);
+    padding: 3px 15px;
+    margin: 36px;
+    border-radius: 20px;
+}
+.nav-link a{
+    padding: 9px 15px;
+    font-size: 1.4em;
+    color: white;
+    display: inline-block;
+    font-family: var(--font-principal);
+    font-weight: 500;
 }
