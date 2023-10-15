@@ -32,6 +32,13 @@ a{
 }
 /* Comienzo de seccion de header */
 
+#inicio{
+    background-image: url(../img/img-inicio-fondo.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 /* Comienzo de nav */
@@ -64,5 +71,5 @@ nav{
     color: white;
     display: inline-block;
     font-family: var(--font-principal);
-    font-weight: 500;
+    font-weight: 400;
 }
