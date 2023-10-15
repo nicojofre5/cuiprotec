@@ -3,8 +3,9 @@
 
 :root{
     --color_principal:rgb(9, 5, 73);
-    --color_secundario:rgb(31, 122, 182);
+    --color_secundario:rgb(16, 109, 171);
     --color-terciario:rgb(47, 4, 81);
+    --color-princ_opacidad:rgba(9, 5, 73, 0.635);
     --font-principal:'Quicksand', sans-serif;
     --font-secundaria:'Raleway', sans-serif;
 }
@@ -40,6 +41,35 @@ a{
     background-size: cover;
 }
 
+.inicio-fondo-azul{
+    background-color: var(--color-princ_opacidad);
+    padding: 25px;
+    width: 290px;
+    border-radius: 10px;
+    margin: 150px 0px 0px 50px;
+}
+
+h1{
+    color: white;
+    font-family: var(--font-secundaria);
+    font-weight: 300;
+    font-size: 2em;
+}
+.cont-btn-contactanos button{
+    background-color: var(--color_secundario);
+    border-radius: 2px;
+    color: white;
+    padding: 6px;
+    margin: 18px 12px 0px;
+    border: 1px solid rgb(3, 3, 56);
+    font-family: var(--font-principal);
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.cont-btn-contactanos{
+    display: flex;
+    justify-content: center;
+}
 
 /* Comienzo de nav */
 
@@ -67,7 +97,7 @@ nav{
 }
 .nav-link a{
     padding: 9px 15px;
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: white;
     display: inline-block;
     font-family: var(--font-principal);
