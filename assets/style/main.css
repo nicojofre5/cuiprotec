@@ -22,6 +22,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 ul, ol{
@@ -30,6 +31,9 @@ ul, ol{
 
 a{
     text-decoration: none;
+}
+body{
+    background-color: azure;
 }
 /* Comienzo de seccion de header */
 
@@ -65,6 +69,7 @@ h1{
     font-family: var(--font-principal);
     font-weight: 500;
     font-size: 1.5em;
+    cursor: pointer;
 }
 .cont-btn-contactanos{
     display: flex;
@@ -122,3 +127,48 @@ nav{
     border-radius: 40px;
 }
 
+/* Seccion de nosotros */
+
+.img-nosotros-1 img{
+    height: 300px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.cont-nosotros{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+        
+}
+.nosotros_section{
+    padding:100px 50px 0px;
+    color: var(--color_principal);
+}
+.nosotros_section h2{
+    font-family: var(--font-secundaria);
+    font-size: 2.2rem;
+    color: var(--color_secundario);
+    padding: 5px 0px;
+    font-weight: bold;
+}
+.marca{
+    color: var(--color_secundario);
+}
+.nosotros_section p{
+    padding: 7px 0px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-family: var(--font-secundaria);
+}
+.cont-rrss-nosotros{
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+    padding: 14px;
+    
+}
+.cont-rrss-nosotros i{
+    font-size: 2.2em;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--color_secundario);
+}

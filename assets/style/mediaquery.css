@@ -1,11 +1,27 @@
 /* Celulares y tablet resolucion */
 
-@media screen and (max-width:700px) {
-    .cont-nav-bar{
-        display: none;
-    }
-    .burguer-icon-cont {
-        display: block;
-        padding: 40px 30px 40px 10px;
-    }
+@media screen and (max-width: 700px) {
+  .cont-nav-bar {
+    display: none;
+  }
+  .burguer-icon-cont {
+    display: block;
+    padding: 40px 30px 40px 10px;
+  }
+  .img-nosotros-1 img {
+    height: 200px;
+  }
+
+  .img-nosotros-1 {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .cont-nosotros{
+    flex-wrap: wrap;
+  }
+  
+.nosotros_section{
+    padding:20px 50px 10px;
+}
 }
