@@ -15,13 +15,16 @@
   .img-nosotros-1 {
     display: flex;
     justify-content: center;
-    
   }
-  .cont-nosotros{
+  .cont-nosotros {
     flex-wrap: wrap;
   }
-  
-.nosotros_section{
-    padding:20px 50px 10px;
-}
+
+  .nosotros_section {
+    padding: 20px 50px 10px;
+  }
+
+  .servicios-cont01 {
+    gap: 5px;
+  }
 }
