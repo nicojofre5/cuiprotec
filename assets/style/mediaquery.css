@@ -27,4 +27,13 @@
   .servicios-cont01 {
     gap: 5px;
   }
+  .info-footer{
+    font-size: 1.3rem;
+  }
+  .logo-footer{
+    width: 100px;
+  }
+  .servicios-exp{
+    padding: 10px 30px;
+  }
 }

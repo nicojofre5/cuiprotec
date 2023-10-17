@@ -217,15 +217,16 @@ nav{
 .servicios-exp{
     display: flex;
     justify-content: space-around;
-    padding: 55px;
+    padding:55px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .servicios-exp-info1 h4{
     font-size: 1.8rem;
     font-family: var(--font-principal);
     color: var(--color_secundario);
     font-weight: 400;
-    width: 400px;
+  
 }
 .servicios-exp-info1 h5{
     font-size: 1.6rem;
@@ -233,12 +234,61 @@ nav{
     font-weight: 600;
     color: var(--color_principal);
     padding: 40px 0px;
+    text-transform: uppercase;
 }
 
+/* Seccion de contacto */
 
+fieldset{
+    border: 0px;
+}
+.cont-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#contacto{
+    padding: 10px 60px;
+}
+#contacto h2{
+    font-size: 2.2rem;
+    font-family: var(--font-principal);
+    font-weight: 400;
+    color: var(--color_principal);
+}
+#contacto p{
+    font-size: 1.5rem;
+    font-family: var(--font-secundaria);
+    font-weight: 200;
+    padding: 10px 0px;
 
+}
 /* Footer comienzo */
 
 .logo-footer{
     width: 150px;
+}
+
+footer{
+    background-color: var(--color_principal);
+}
+.info-footer{
+    color: white;
+    text-align: center;
+    font-family: var(--font-principal);
+    font-size: 1.6rem;
+    padding: 12px;
+}
+.info-footer h5, .info-footer p{
+    display: inline-block;
+}
+.cont-div-footer{
+    display: flex;
+    justify-content: center;
+}
+.marca2{
+    color:rgb(127, 186, 211) ;
+}
+.cont-card1 img{
+    width: 300px;
 }
