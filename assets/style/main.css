@@ -79,8 +79,9 @@ h1{
 /* Comienzo de nav */
 
 .cont-logo-inicio img{
-    width: 150px;
+    width: 200px;
 }
+
 
 .burguer-icon-cont i{
     font-size: 2.6em;
@@ -107,8 +108,9 @@ nav{
     margin: 36px;
     border-radius: 20px;
     border: 2px solid var(--color-princ_opacidad);
-    
+
 }
+
 .nav-link a{
     padding: 6px 30px;
     font-size: 1.5em;
@@ -180,7 +182,7 @@ nav{
     justify-content:center;
     gap: 70px;
     flex-wrap: wrap;
-    padding: 30px 20px;
+    padding: 100px 20px;
    
 }
 
@@ -214,18 +216,12 @@ nav{
     border-radius: 8px;
     color: white;
 }
-.servicios-exp{
-    display: flex;
-    justify-content: space-around;
-    padding:55px;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 .servicios-exp-info1 h4{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: var(--font-principal);
     color: var(--color_secundario);
-    font-weight: 400;
+    font-weight: 600;
   
 }
 .servicios-exp-info1 h5{
@@ -236,7 +232,14 @@ nav{
     padding: 40px 0px;
     text-transform: uppercase;
 }
-
+.cont-card1 img{
+    width: 290px; 
+    clip-path: polygon(100% 0%, 87% 48%, 100% 100%, 14% 100%, 0% 50%, 15% 0);
+}
+.cont-card2 img{
+    width:250px;
+    clip-path: polygon(100% 0%, 87% 48%, 100% 100%, 14% 100%, 0% 50%, 15% 0);
+}
 /* Seccion de contacto */
 
 fieldset{
@@ -245,7 +248,7 @@ fieldset{
 .cont-contacto{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 30px 10px;
 }
 #contacto{
@@ -256,6 +259,7 @@ fieldset{
     font-family: var(--font-principal);
     font-weight: 500;
     color: var(--color_secundario);
+    text-align: center;
 }
 #contacto p{
     font-size: 1.5rem;
@@ -267,7 +271,7 @@ fieldset{
     background-color: var(--color_principal);
     color: white;
     border-radius: 4px;
-    margin: 10px 2px;
+    margin: 10px 2px;   
 }
 
 .subcontacto{
@@ -275,6 +279,7 @@ fieldset{
     font-family: var(--font-secundaria);
     font-weight: 300;
     padding: 10px 0px;
+    text-align:center;
 }
 
 
@@ -298,7 +303,9 @@ fieldset{
     padding: 4px;
     text-align: center;
 }
-
+.info-contacto{
+    text-align: center;
+}
 /* Form */
 
 form{
@@ -359,7 +366,4 @@ footer{
 }
 .marca2{
     color:rgb(127, 186, 211) ;
-}
-.cont-card1 img{
-    width: 300px;
 }
