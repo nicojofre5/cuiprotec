@@ -216,29 +216,44 @@ nav{
     border-radius: 8px;
     color: white;
 }
-
-.servicios-exp-info1 h4{
-    font-size: 2rem;
-    font-family: var(--font-principal);
-    color: var(--color_secundario);
-    font-weight: 600;
-  
+.servicios-exp{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
 }
+
 .servicios-exp-info1 h5{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-family: var(--font-secundaria);
-    font-weight: 600;
+    font-weight: 500;
     color: var(--color_principal);
     padding: 40px 0px;
     text-transform: uppercase;
 }
 .cont-card1 img{
     width: 290px; 
-    clip-path: polygon(100% 0%, 87% 48%, 100% 100%, 14% 100%, 0% 50%, 15% 0);
+    clip-path: polygon(100% 0%, 87% 48%, 100% 100%, 0 100%, 0% 50%, 0 0);
 }
 .cont-card2 img{
     width:250px;
     clip-path: polygon(100% 0%, 87% 48%, 100% 100%, 14% 100%, 0% 50%, 15% 0);
+}
+.cont-card3 img{
+    width: 250px;
+}
+.cont-card4 img{
+    width: 230px;
+    clip-path: polygon(8% 0, 91% 0, 100% 100%, 0% 100%);
+}
+#servicios h4{
+    font-size: 2em;
+    font-family: var(--font-principal);
+    color: var(--color_principal);
+    padding: 30px;
+    font-weight: 600;
+}
+#servicios{
+    padding: 35px 0px;
 }
 /* Seccion de contacto */
 
