@@ -18,6 +18,7 @@
   }
   .cont-nosotros {
     flex-wrap: wrap;
+    padding: 85px 0px;
   }
 
   .nosotros_section {
@@ -35,5 +36,8 @@
   }
   .servicios-exp{
     padding: 10px 30px;
+  }
+  .cont-contacto{
+    justify-content: center;
   }
 }

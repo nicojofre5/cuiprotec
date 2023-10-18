@@ -33,7 +33,7 @@ a{
     text-decoration: none;
 }
 body{
-    background-color: azure;
+    background-color:rgba(29, 141, 172, 0.116);
 }
 /* Comienzo de seccion de header */
 
@@ -246,6 +246,7 @@ fieldset{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 30px 10px;
 }
 #contacto{
     padding: 10px 60px;
@@ -253,16 +254,83 @@ fieldset{
 #contacto h2{
     font-size: 2.2rem;
     font-family: var(--font-principal);
-    font-weight: 400;
-    color: var(--color_principal);
+    font-weight: 500;
+    color: var(--color_secundario);
 }
 #contacto p{
     font-size: 1.5rem;
-    font-family: var(--font-secundaria);
-    font-weight: 200;
-    padding: 10px 0px;
-
+    font-family: var(--font-principal);
+    font-weight: 500;
+    padding: 10px 30px;
+    color: var(--color_principal);
+    display: inline-block;
+    background-color: var(--color_principal);
+    color: white;
+    border-radius: 4px;
+    margin: 10px 2px;
 }
+
+.subcontacto{
+    font-size: 1.4rem;
+    font-family: var(--font-secundaria);
+    font-weight: 300;
+    padding: 10px 0px;
+}
+
+
+
+
+.subcont-contacto1 h5{
+    font-size: 1.8em;
+    font-family: var(--font-principal);
+    color: var(--color_secundario);
+    margin: 15px 0px;
+    font-weight: 500;
+   
+}
+
+
+.subcont-contacto1 a{
+    display: inline-block;
+    font-size: 2.8em;
+    margin: 10px 30px;
+    color: var(--color_principal);
+    padding: 4px;
+    text-align: center;
+}
+
+/* Form */
+
+form{
+    padding: 30px;
+    margin: 10px;
+}
+label{
+    display: block;
+    color: var(--color_principal);
+    font-family: var(--font-principal);
+    font-size: 1.5rem;
+    padding: 4px 0px;
+}
+textarea{
+    resize: none;
+}
+.cont-btn-submit{
+    display: flex;
+    justify-content: center;
+}
+.cont-btn-submit button{
+    background-color: rgb(21, 182, 80);
+    color: white;
+    font-family: var(--font-secundaria);
+    font-size: 1.2rem;
+    padding: 10px;
+    border:2px solid rgb(4, 165, 77);
+    margin:10px 0px;
+}
+
+/* Fin form */
+
 /* Footer comienzo */
 
 .logo-footer{
