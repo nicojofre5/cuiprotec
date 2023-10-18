@@ -5,7 +5,9 @@
     display: none;
   }
 
-
+  .cont-logo-inicio img{
+    width: 165px;
+}
 
   .burguer-icon-cont {
     display: block;
@@ -30,6 +32,10 @@
 
   .servicios-cont01 {
     gap: 5px;
+  }
+  .servicios-rrss a{
+    font-size: 2.4rem;
+    margin: 20px;
   }
   .info-footer{
     font-size: 1.3rem;
