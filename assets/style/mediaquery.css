@@ -6,7 +6,7 @@
   }
   .burguer-icon-cont {
     display: block;
-    padding: 40px 30px 40px 10px;
+    padding: 40px 30px;
   }
   .img-nosotros-1 img {
     height: 200px;
@@ -32,12 +32,16 @@
     font-size: 1.3rem;
   }
   .logo-footer{
-    width: 100px;
+    width: 140px;
   }
   .servicios-exp{
     padding: 10px 30px;
   }
-  .cont-contacto{
+  .cont-contacto {
     justify-content: center;
+    
+  }
+  .subcont-contacto1{
+    padding: 20px 0px 30px;
   }
 }
