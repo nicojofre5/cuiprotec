@@ -222,7 +222,13 @@ nav{
 .servicios-exp{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    
+    padding: 10px;    
+}
+.cont-cards-servicios1,.cont-cards-servicios2,.cont-cards-servicios3,.cont-cards-servicios4{
+
+    padding: 20px;
 }
 
 .servicios-exp-info1 h5{
@@ -346,14 +352,18 @@ label{
 }
 input{
     width: 100%;
+    padding: 5px 0px;
+    font-family: var(--font-principal);
 }
 textarea{
     resize: none;
+    font-family: var(--font-principal);
 }
 .cont-btn-submit{
     display: flex;
     justify-content: center;
 }
+
 .cont-btn-submit button{
     background-color: rgb(21, 182, 80);
     color: white;

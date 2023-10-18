@@ -37,6 +37,25 @@
     font-size: 2.4rem;
     margin: 20px;
   }
+
+  .cont-card1 img{
+    width: 150px;
+  }
+  .cont-card2 img{
+    width: 130px;
+  }
+  .cont-card3 img{
+    width: 140px;
+  }
+  .cont-card4 img{
+    width: 140px;
+  }
+  .cont-card5 img{
+    width: 135px;
+  }
+  .cont-card6 img{
+    width: 150px;
+  }
   .info-footer{
     font-size: 1.3rem;
   }
