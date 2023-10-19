@@ -5,9 +5,9 @@
     display: none;
   }
 
-  .cont-logo-inicio img{
+  .cont-logo-inicio img {
     width: 165px;
-}
+  }
 
   .burguer-icon-cont {
     display: block;
@@ -33,43 +33,28 @@
   .servicios-cont01 {
     gap: 5px;
   }
-  .servicios-rrss a{
+  .servicios-rrss a {
     font-size: 2.4rem;
-    margin: 20px;
+    margin: 10px;
   }
-
-  .cont-card1 img{
-    width: 150px;
+  .cont-card-servicios div:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
   }
-  .cont-card2 img{
-    width: 130px;
-  }
-  .cont-card3 img{
-    width: 140px;
-  }
-  .cont-card4 img{
-    width: 140px;
-  }
-  .cont-card5 img{
-    width: 135px;
-  }
-  .cont-card6 img{
-    width: 150px;
-  }
-  .info-footer{
+  .info-footer {
     font-size: 1.3rem;
   }
-  .logo-footer{
+  .logo-footer {
     width: 140px;
   }
-  .servicios-exp{
+  .servicios-exp {
     padding: 10px 30px;
   }
   .cont-contacto {
     justify-content: center;
-    
   }
-  .subcont-contacto1{
+  .subcont-contacto1 {
     padding: 20px 0px 30px;
   }
 }
