@@ -205,6 +205,11 @@ nav{
 .servicios-cont1{
     padding: 20px 0px;
 }
+.cont-card-servicios{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
 
 .servicios-cont2 ul>li{
     font-family: var(--font-principal);
