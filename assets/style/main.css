@@ -151,7 +151,7 @@ h1{
     font-weight: 300;
     font-size: 2em;
 }
-.cont-btn-contactanos button{
+.cont-btn-contactanos a{
     background-color: var(--color_secundario);
     border-radius: 2px;
     color: white;
@@ -172,7 +172,7 @@ h1{
 
 .cont-logo-inicio img{
     width: 200px;
-    animation: myAnim 5s ease 1s 1 normal forwards;
+    animation: myAnim 3s ease 1s 1 normal forwards;
 }
 
 
@@ -403,9 +403,9 @@ fieldset{
     padding: 10px 30px;
     color: var(--color_principal);
     display: inline-block;
-    background-color: var(--color_principal);
-    color: white;
+    color: var(--color_secundario);
     border-radius: 4px;
+
     margin: 10px 2px;   
 }
 
