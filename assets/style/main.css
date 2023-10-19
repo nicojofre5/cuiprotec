@@ -185,9 +185,7 @@ nav{
     padding: 50px 20px;
    
 }
-.servicios-rrss{
-    text-align: center;
-}
+
 
 .servicios-cont1 h2 {
     font-size: 2.3rem;
@@ -226,41 +224,7 @@ nav{
     
     padding: 10px;    
 }
-.cont-cards-servicios1,.cont-cards-servicios2,.cont-cards-servicios3,.cont-cards-servicios4{
 
-    padding: 20px;
-}
-
-.servicios-exp-info1 h5{
-    font-size: 1.8rem;
-    font-family: var(--font-secundaria);
-    font-weight: 500;
-    color: var(--color_principal);
-    padding: 40px 0px;
-    text-transform: uppercase;
-}
-.cont-card1 img{
-    width: 290px; 
-    clip-path: polygon(100% 0%, 87% 48%, 100% 100%, 0 100%, 0% 50%, 0 0);
-}
-.cont-card2 img{
-    width:250px;
-    clip-path: polygon(100% 0%, 87% 48%, 100% 100%, 14% 100%, 0% 50%, 15% 0);
-}
-.cont-card3 img{
-    width: 250px;
-}
-.cont-card4 img{
-    width: 230px;
-    clip-path: polygon(8% 0, 91% 0, 100% 100%, 0% 100%);
-}
-.cont-card5 img{
-    width:290px;
-    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%, 25% 0%);
-}
-.cont-card6 img{
-    width: 210px;
-}
 #servicios h4{
     font-size: 2em;
     font-family: var(--font-principal);
