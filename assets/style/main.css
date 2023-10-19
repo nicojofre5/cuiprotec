@@ -348,7 +348,7 @@ transition: 1.2s;
     padding: 24px;
     border-radius: 8px;
     color: white;
-    animation: recuadroazul 8s ease 1s 3 normal forwards;
+    animation: recuadroazul 15s ease 1s 1 normal forwards;
 }
    
 .servicios-exp{
@@ -396,16 +396,17 @@ fieldset{
     color: var(--color_secundario);
     text-align: center;
 }
-#contacto p{
+#contacto p, #contacto a{
     font-size: 1.5rem;
     font-family: var(--font-principal);
     font-weight: 500;
-    padding: 10px 30px;
+    padding: 10px 20px;
     color: var(--color_principal);
     display: inline-block;
     color: var(--color_secundario);
     border-radius: 4px;
-
+    color: white;
+    background-color: var(--color_principal);
     margin: 10px 2px;   
 }
 
@@ -430,14 +431,6 @@ fieldset{
 }
 
 
-.subcont-contacto1 a{
-    display: inline-block;
-    font-size: 2.8em;
-    margin: 10px 30px;
-    color: var(--color_principal);
-    padding: 4px;
-    text-align: center;
-}
 .info-contacto{
     text-align: center;
 }
