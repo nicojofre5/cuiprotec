@@ -130,7 +130,7 @@ body{
 /* Comienzo de seccion de header */
 
 #inicio{
-    background-image: url(../img/img-inicio-fondo.jpg);
+    background-image: url(../img/img-inicio-fondo.webp);
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
