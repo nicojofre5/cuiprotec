@@ -3,7 +3,29 @@
 @media screen and (max-width: 700px) {
   .cont-nav-bar {
     display: none;
+    position:absolute;
   }
+  .show{
+    display:block;
+    position: absolute;
+    top:0;
+    width: 40%;
+       
+   }
+   .nav-link{
+    margin: 15px 0px;
+   }
+
+   .nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0px;
+    padding: 0;
+    min-height:100vh;
+    margin: 0;
+    width: 100%;
+   }
 
   .cont-logo-inicio img {
     width: 165px;
