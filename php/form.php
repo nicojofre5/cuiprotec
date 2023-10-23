@@ -39,31 +39,17 @@ $mail->addAddress('consultas@cuiprotec.com.ar');
 $mail->isHTML(true);
 $mail->Subject= $asunto;
 $mensajeHtml = nl2br($mensaje);
-$mail->Body = "{$mensajeHtml} <br /><br />Formulario de ejemplo. By DonWeb<br />"; // Texto del email en formato HTML
-$mail->AltBody = "{$mensaje} \n\n Formulario de ejemplo By DonWeb"; // Texto sin formato HTML
+$mail->Body = "{$mensajeHtml} <br /><br />Formulario enviado desde web<br /><h2>$nombre</h2><h4>con la cuenta de $email</h4> <hr> y la consulta es $mensaje"; // Texto del email en formato HTML
+$mail->AltBody = "{$mensaje} \n\n {$email} \n\n {$nombre}"; // Texto sin formato HTML
 // FIN - VALORES A MODIFICAR //
 
 $estadoEnvio = $mail->Send(); 
 
-
-
-
-$mail->From = $email; // Email desde donde envío el correo.
-$mail->FromName = $nombre;
-$mail->AddAddress($emailDestino); // Esta es la dirección a donde enviamos los datos del formulario
-
-$mail->Subject = "DonWeb - Ejemplo de formulario de contacto"; // Este es el titulo del email.
-$mensajeHtml = nl2br($mensaje);
-$mail->Body = "{$mensajeHtml} <br /><br />Formulario de ejemplo. By DonWeb<br />"; // Texto del email en formato HTML
-$mail->AltBody = "{$mensaje} \n\n Formulario de ejemplo By DonWeb"; // Texto sin formato HTML
-// FIN - VALORES A MODIFICAR //
-
-$estadoEnvio = $mail->Send();
 if ($estadoEnvio) {
-    echo "El correo fue enviado correctamente.";
+    header("Location:../exito.html");
 } else {
     echo "Ocurrió un error inesperado.";
 }
 
-header("Location:../exito.html");
+
 ?>
