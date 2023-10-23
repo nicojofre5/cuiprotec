@@ -4,7 +4,6 @@
 	$asunto = 'Consulta CUIPROTEC';
 	$mensaje = $_POST['mensaje'];
 
-	$header .="Content-Type = text/plain";
 	
 	//Como llegará el mail 
 
@@ -17,9 +16,9 @@
 	$para = 'consultas@cuiprotec.com.ar';
 	$asunto = 'Consulta de sitio web';
 
-	mail($para, $asunto, utf8_decode($mensaje), $header);
+	mail($para, $asunto, $mensaje, $headers);
 
-	header('Location:exito.html');
+	header('Location:../exito.html');
 
 
 
