@@ -39,7 +39,7 @@ $mail->addAddress('consultas@cuiprotec.com.ar');
 $mail->isHTML(true);
 $mail->Subject= $asunto;
 $mensajeHtml = nl2br($mensaje);
-$mail->Body = "{$mensajeHtml} <br /><br />Formulario enviado desde web<br /><h2>$nombre</h2><h4>con la cuenta de $email</h4> <hr> y la consulta es $mensaje"; // Texto del email en formato HTML
+$mail->Body = "Formulario enviado desde web<br /><h2>registrado al nombre de : $nombre</h2><h4>con la cuenta de: $email</h4> <hr> y la consulta es {$mensajeHtml}"; // Texto del email en formato HTML
 $mail->AltBody = "{$mensaje} \n\n {$email} \n\n {$nombre}"; // Texto sin formato HTML
 // FIN - VALORES A MODIFICAR //
 
