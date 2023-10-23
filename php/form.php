@@ -1,7 +1,12 @@
 <?php
-	// Valores enviados desde el formulario
-if ( !isset($_POST["nombre"]) || !isset($_POST["email"]) || !isset($_POST["mensaje"]) ) {
-    die ("Es necesario completar todos los datos del formulario");
+
+
+require("../phpmailer/class.phpmailer.php");
+require("../phpmailer/class.smtp.php");
+
+// Valores enviados desde el formulario
+if (!isset($_POST["nombre"]) || !isset($_POST["email"]) || !isset($_POST["mensaje"])) {
+	die("Es necesario completar todos los datos del formulario");
 }
 
 $nombre = $_POST["nombre"];
@@ -19,13 +24,13 @@ $emailDestino = "consultas@cuiprotec.com.ar";
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->SMTPAuth = true;
-$mail->Port = 465; 
+$mail->Port = 465;
 $mail->SMTPSecure = 'ssl';
-$mail->IsHTML(true); 
+$mail->IsHTML(true);
 $mail->CharSet = "utf-8";
 
-$mail->Host = $smtpHost; 
-$mail->Username = $smtpUsuario; 
+$mail->Host = $smtpHost;
+$mail->Username = $smtpUsuario;
 $mail->Password = $smtpClave;
 
 $mail->From = $email; // Email desde donde envío el correo.
@@ -37,9 +42,11 @@ $mensajeHtml = nl2br($mensaje);
 $mail->Body = "{$mensajeHtml} <br /><br /><h1>Formulario web</h1><br /> <h2>Enviado por $nombre con la cuenta $email</h2><br> <h3>$mensaje</h3>"; // Texto del email en formato HTML
 $mail->AltBody = "{$mensaje} \n\n $nombre $email $mensaje"; // Texto sin formato HTML
 
-$estadoEnvio = $mail->Send(); 
-if($estadoEnvio){
-    echo "El correo fue enviado correctamente.";
+$estadoEnvio = $mail->Send();
+if ($estadoEnvio) {
+	echo "El correo fue enviado correctamente.";
 } else {
-    echo "Ocurrió un error inesperado.";
+	echo "Ocurrió un error inesperado.";
 }
+
+header("Location:../exito.html");
