@@ -510,6 +510,8 @@ footer{
     padding: 80px 20px;
     min-height: 100vh;
     align-items: flex-start;
+    background-color: var(--color_principal);
+    color: white;
 }
 .cont-img-exito img{
     width: 220px;
@@ -521,7 +523,8 @@ footer{
 }
 .seccion-izq-exito h1{
     font-size:2.4rem;
-    font-weight: 600;
+    font-weight: 800;
+    text-shadow: 4px 6px 4px rgba(1, 0, 3, 0.742)
 }
 .seccion-izq-exito h2{
     font-size: 1.8rem;
@@ -529,6 +532,6 @@ footer{
 }
 .seccion-izq-exito p{
     font-size: 1.4rem;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 
