@@ -506,7 +506,7 @@ footer{
 .principal-exito{
     display: flex;
     justify-content: space-evenly;
-    flex: wrap;
+    flex-wrap: wrap;
     padding: 80px 20px;
     min-height: 100vh;
     align-items: flex-start;
