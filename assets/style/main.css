@@ -171,7 +171,6 @@ body{
 /* Comienzo de nav */
 
 .cont-logo-inicio img{
-    width: 200px;
     animation: myAnim 3s ease 1s 1 normal forwards;
 }
 
@@ -225,7 +224,6 @@ nav{
 /* Seccion de nosotros */
 
 .img-nosotros-1 img{
-    height: 300px;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 .cont-nosotros{
@@ -357,9 +355,7 @@ transition: 1.2s;
     flex-wrap: wrap;
     padding: 10px;    
 }
-.cont-img-serv img{
-    width: 300px;
-}
+
 #servicios h4{
     font-size: 2.2em;
     font-family: var(--font-principal);
@@ -476,9 +472,7 @@ textarea{
 
 /* Footer comienzo */
 
-.logo-footer{
-    width: 150px;
-}
+
 
 footer{
     background-color: var(--color_principal);
