@@ -145,7 +145,7 @@ body{
     margin: 150px 0px 0px 50px;
 }
 
-h1{
+.inicio-fondo-azul h1{
     color: white;
     font-family: var(--font-secundaria);
     font-weight: 300;
@@ -499,3 +499,36 @@ footer{
 .marca2{
     color:rgb(127, 186, 211) ;
 }
+
+/* Estilos para la página de exito */
+
+
+.principal-exito{
+    display: flex;
+    justify-content: space-evenly;
+    flex: wrap;
+    padding: 80px 20px;
+    min-height: 100vh;
+    align-items: flex-start;
+}
+.cont-img-exito img{
+    width: 220px;
+
+}
+.seccion-izq-exito{
+    padding: 70px 20px;
+    font-family: var(--font-principal);
+}
+.seccion-izq-exito h1{
+    font-size:2.4rem;
+    font-weight: 600;
+}
+.seccion-izq-exito h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.seccion-izq-exito p{
+    font-size: 1.4rem;
+    padding: 10px 0px;
+}
+
