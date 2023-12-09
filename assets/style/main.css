@@ -171,12 +171,13 @@ body{
 /* Comienzo de nav */
 
 .cont-logo-inicio img{
+    width: 200px;
     animation: myAnim 3s ease 1s 1 normal forwards;
 }
 
 
 .burguer-icon-cont img{
-    width: 65px;
+    width: 55px;
     color: white;
     background-color: var(--color_principal);
     padding: 12px 15px;
@@ -224,6 +225,7 @@ nav{
 /* Seccion de nosotros */
 
 .img-nosotros-1 img{
+    height: 300px;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 .cont-nosotros{
@@ -355,7 +357,9 @@ transition: 1.2s;
     flex-wrap: wrap;
     padding: 10px;    
 }
-
+.cont-img-serv img{
+    width: 300px;
+}
 #servicios h4{
     font-size: 2.2em;
     font-family: var(--font-principal);
@@ -472,7 +476,9 @@ textarea{
 
 /* Footer comienzo */
 
-
+.logo-footer{
+    width: 190px;
+}
 
 footer{
     background-color: var(--color_principal);
@@ -492,7 +498,11 @@ footer{
     justify-content: center;
 }
 .marca2{
-    color:rgb(127, 186, 211) ;
+    color:white ;
+}
+.marca2:hover{
+    color:rgb(148, 241, 241);
+    text-decoration: underline;
 }
 
 /* Estilos para la página de exito */
